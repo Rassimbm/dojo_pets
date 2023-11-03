@@ -5,3 +5,11 @@ class Ninja:
         self.treats = treats
         self.pet_food = pet_food
         self.pet = pet
+
+class Pet:
+    def __init__(self , name , type , tricks):
+        self.name = name
+        self.type = type
+        self.tricks = tricks
+        self.health = 100
+        self.energy = 100
