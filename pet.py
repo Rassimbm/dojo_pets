@@ -23,3 +23,7 @@ class Pet:
     def make_noise(self):
         print(self.noise)
         return self
+    
+class Dog(Pet):
+    def __init__(self , name , type , tricks , noise):
+        super().__init__(name , type , tricks, noise)
